@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Voice Notes",
+    "slug": "voice-notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Voice Notes to access your microphone to record voice notes."
+        }
+      ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.voicenotes.app"
+    },
+    "android": {
+      "package": "com.voicenotes.app"
+    }
+  }
+}
