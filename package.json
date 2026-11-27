@@ -1,0 +1,17 @@
+{
+  "name": "voice-notes",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*",
+    "expo-audio": "*",
+    "expo-file-system": "*",
+    "@react-native-async-storage/async-storage": "*"
+  },
+  "devDependencies": {
+    "typescript": "*",
+    "@types/react": "*"
+  }
+}
