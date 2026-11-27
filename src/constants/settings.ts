@@ -5,4 +5,5 @@ export const settings = {
   millisPerSecond: 1000,
   secondsPerMinute: 60,
   finishedMargin: 0.2,
+    supportEmail: 'busisiwegqada0@gmail.com',
 };
