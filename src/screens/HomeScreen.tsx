@@ -26,6 +26,7 @@ import NoteItem from '../components/NoteItem';
 import PlayerPanel from '../components/PlayerPanel';
 import RecordButton from '../components/RecordButton';
 import RenameModal from '../components/RenameModal';
+import FeedbackButton from '../components/FeedbackButton';
 
 export default function HomeScreen() {
   const audioRecorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
@@ -209,6 +210,8 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>{texts.appTitle}</Text>
 
+             <FeedbackButton />
+      
       <SearchBar value={searchText} onChange={setSearchText} />
 
       <FlatList
