@@ -19,4 +19,6 @@ export const texts = {
   deleteMessage: 'Are you sure you want to delete this voice note?',
   permissionTitle: 'Microphone needed',
   permissionMessage: 'Please allow microphone access so you can record voice notes.',
+  feedback: 'Feedback and Support',
+  feedbackSubject: 'Voice Notes feedback',
 };
